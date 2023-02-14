@@ -8,9 +8,9 @@ using namespace std;
 -> User Details
 -> Update Mobile No.
 */
-class atm										// class atm 
+class atm		
 {
-private:										// private member varibles
+private:										
 	long int account_No;
 	string name;
 	int PIN;
@@ -21,7 +21,7 @@ public:											// public member functions
 	// setData function is setting the Data into the private member variables
 	void setData(long int account_No_a, string name_a, int PIN_a, double balance_a, string mobile_No_a)
 	{
-		account_No = account_No_a;	 // assigning the formal arguments to the private member var's
+		account_No = account_No_a;	 
 		name = name_a;
 		PIN = PIN_a;
 		balance = balance_a;
